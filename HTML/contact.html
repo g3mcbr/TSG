@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+    <table style="width: 50%; border-spacing: 12px;">
+        <tr>
+          <td style="text-align: right; padding-right: 6%;">First Name:</td>
+          <td><input type="text" name="firstname" size="24"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 6%;">Last Name:</td>
+          <td><input type="text" name="lastname" size="24"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 6%;">Email:</td>
+          <td><input type="text" name="email" size="24"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 6%;">Type of License:</td>
+          <td><input type="radio" name="license" value="business" checked>Buisiness
+          <input type="radio" name="license" value="personal">Personal</td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 6%;">Reason:</td>
+          <td><select name="reason" style="width: 205px">
+                  <option value="sw">Software Support</option>
+                  <option value="hw">Hardware Support</option>
+                  <option value="info">Information Request</option>
+              </select></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; vertical-align: top; padding-right: 6%;">Additional Information:</td>
+          <td><textarea name="additionalinfo" rows="8" cols="23"></textarea>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" name="agreement">I have read the terms of service</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="padding-left: 105px;"><input type="submit" name="submit" value="Send Request"></td>
+        </tr>
+
+    </table>
+
+
+    </form>
+
+
+  </body>
+</html>
