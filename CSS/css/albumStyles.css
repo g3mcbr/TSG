@@ -1,0 +1,15 @@
+html {
+  background-color: steelblue;
+}
+
+tr:nth-child(even) {
+  background-color: #a8b6cc;
+}
+
+tr:nth-child(odd) {
+  background-color: #a4a8b0;
+}
+
+tr {
+  font-style: italic;
+}
