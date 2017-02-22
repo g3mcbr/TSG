@@ -1,0 +1,44 @@
+html, body {
+  height: 97%;
+  margin: 0 auto;
+}
+
+html {
+  font-family: sans-serif;
+  }
+
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#wrap {
+  min-height: 94%;
+  overflow: auto;
+  /*padding-bottom: 20px;*/
+}
+
+#footer {
+  text-align: center;
+  height: 60px;
+  clear: both;
+  margin: 0;
+}
+
+.welcome {
+  width: 370px;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+.footer {
+  text-align: center;
+}
