@@ -2,6 +2,22 @@ html {
   background-color: steelblue;
 }
 
+@font-face {
+  font-family: TruenoRegular;
+  src: url('../fonts/TruenoRg.otf');
+}
+@font-face {
+  font-family: TruenoRegularItalic;
+  src: url('../fonts/TruenoRgIt.otf');
+}
+
+h2, h3 {
+  font-family: 'TruenoRegular';
+}
+li {
+  font-style: italic;
+}
+
 tr:nth-child(even) {
   background-color: #a8b6cc;
 }
