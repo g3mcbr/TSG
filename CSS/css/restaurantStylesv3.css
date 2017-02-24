@@ -1,0 +1,81 @@
+html, body {
+  height: 94%;
+  margin: 0 auto;
+}
+
+html {
+  font-family: sans-serif;
+  }
+
+@font-face {
+  font-family: BelligerentMadness;
+  src: url('../fonts/belligerent.ttf');
+}
+
+h2 {
+  text-align: center;
+  font-family: BelligerentMadness;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  font-family: BelligerentMadness;
+  font-size: 1.5em;
+}
+
+hr {
+  margin: 0;
+}
+
+#wrap {
+  min-height: 97%;
+  overflow: auto;
+  /*padding-bottom: 20px;*/
+}
+
+#header {
+  height: 10vh;
+  background-color: #a64f24;
+}
+
+#nav {
+  height: 6vh;
+  background-color: #7e5555;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+
+#main {
+  background-color: #ac7c59;
+  padding: 20px;
+  min-height: 71vh;
+}
+
+#footer {
+  text-align: center;
+  background-color: #a64f24;
+  min-height: 9vh;
+  clear: both;
+  margin: 0;
+}
+
+.welcome {
+  width: 370px;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px auto 0 auto;
+}
+
+.footer {
+  text-align: center;
+}
