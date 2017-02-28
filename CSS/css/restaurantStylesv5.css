@@ -126,3 +126,15 @@ table#drinks caption {
 .footer {
   text-align: center;
 }
+
+
+.carousel-text {
+	text-align: center;
+	color: black;
+	padding-bottom: 25px;
+}
+
+.carousel-div {
+	width: 450px;
+	height: 301px
+}

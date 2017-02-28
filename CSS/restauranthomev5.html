@@ -13,14 +13,64 @@
         <header>
 		<h1 class="belligerentfont" id="large">The Harry Burger</h1>
 		<div class="container-fluid">
-		<div class="jumbotron text-center">
+<!--		<div class="jumbotron text-center">
 			<div class="alert alert-info">
 				<h2>Don't miss our new location!</h2>
 			</div>
 			<p>Our new Restaurant is located at</p>
 			<p>1234 Nowhere Rd</p>
 			<p>Somewhere, OH 44923</p>
+		</div>-->
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="carousel-div center-block">
+					<img class="center-block" src="img/building.jpg" alt="building pic" width="400">
+					</div>
+					<div class="carousel-caption">
+						<!--<h3 class="carousel-text">We're opening a new location!</h3>-->
+					</div>
+					<h3 class="carousel-text">We're opening a new location! <br>Check it out!</h3>
+				</div>
+				<div class="item">
+					<div class="carousel-div center-block">
+					<img class="center-block" src="img/salad.jpg" alt="salad pic" width="451">
+					</div>
+					<div class="carousel-caption">
+					</div>
+						<h3 class="carousel-text">We're rolling out a new <br>seasonal menu!</h3>
+				</div>
+				<div class="item">
+					<div class="carousel-div center-block">
+					<img class="center-block" src="img/drink.jpg" alt="drink pic" width="301">
+					</div>
+					<div class="carousel-caption">
+					</div>
+						<h3 class="carousel-text">The drink of the month is <br>SG Special Brew!</h3>
+				</div>
+				...
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
+
 		</div>
         </header>
       </div>
@@ -49,5 +99,7 @@
         <p>142 Center St, Harry, OH 44839</p><p>(555)222-6666</p>
     </div>
   </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
