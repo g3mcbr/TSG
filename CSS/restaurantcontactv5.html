@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link type="text/css" rel="stylesheet" href="css/restaurantStylesv5.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style media="screen">
+      table {
+        width: 60%;
+        border-spacing: 12px;
+      }
+      tr {
+	      border-spacing: 20px;
+      }
+      td {
+        text-align: right;
+	padding-bottom: 10px;
+        padding-right: 6%;
+	margin: 30px;
+      }
+      #addinfo {
+        vertical-align: top;
+      }
+      .boldletter {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div id="wrap">
+      <div id="header">
+          <header>
+            <h1 class="belligerentfont" id="large">The Harry Burger</h1>
+          </header>
+      </div>
+          <hr id="resthr">
+      <div id="nav">
+          <ul class="nav nav-pills">
+            <li><a href="restauranthomev5.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="restaurantmenuv5.html">Menu</a></li>
+            <li class="active"><a href="restaurantcontactv5.html">Contact Us</a></li>
+          </ul>
+      </div>
+          <hr id="resthr">
+      <div id="main">
+        <form class="form-group" action="index.html" method="post">
+          <table>
+              <tr>
+                <td class="boldletter">Name:</td>
+                <td><input class="form-control" type="text" name="name" size="24"></td>
+              </tr>
+              <tr>
+                <td class="boldletter">Email:</td>
+                <td><input class="form-control" type="text" name="email" size="24"></td>
+              </tr>
+              <tr>
+                <td>Phone:</td>
+                <td><input class="form-control" type="text" name="phone" size="24"></td>
+              </tr>
+              <tr>
+                <td class="boldletter">Reason for Inquiry:</td>
+                <td><select class="form-control" name="reason" style="width: 100%">
+                        <option value="catering">Catering</option>
+                        <option value="privateparty">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select></td>
+              </tr>
+              <tr>
+                <td id="addinfo">Additional Information:</td>
+                <td><textarea class="form-control" name="additionalinfo" rows="8" cols="23"></textarea>
+              </tr>
+              <tr>
+                <td class="boldletter">Have you been to the restaurant?</td>
+                <td><input type="radio" name="visited" value="no" checked>No
+                    <input type="radio" name="visited" value="yes">Yes</td>
+              </tr>
+              <tr>
+                <td>Best days to contact you:</td>
+                <td><input type="checkbox" name="bestday" value="monday">M
+                    <input type="checkbox" name="bestday" value="tuesday">T
+                    <input type="checkbox" name="bestday" value="wednesday">W
+                    <input type="checkbox" name="bestday" value="thursday">Th
+                    <input type="checkbox" name="bestday" value="friday">F</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style="padding-left: 105px;"><input type="submit" name="submit" value="Send Request"></td>
+              </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+	 <hr id="resthr">
+    <div id="footer">
+        <p>142 Center St, Harry, OH 44839</p><p>(555)222-6666</p>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+html, body {
+  height: 94%;
+  margin: 0 auto;
+}
+
+html {
+  font-family: sans-serif;
+  }
+
+@font-face {
+  font-family: BelligerentMadness;
+  src: url('../fonts/belligerent.ttf');
+}
+
+.belligerentfont {
+	font-family: BelligerentMadness;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: BelligerentMadness;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  font-family: BelligerentMadness;
+  font-size: 1.5em;
+}
+
+#large {
+	font-size: 3.0em;
+	font-weight: bold;
+}
+
+#resthr {
+  margin: 0;
+  width: 100%;
+  float: left;
+}
+
+#wrap {
+  min-height: 97%;
+  overflow: auto;
+  /*padding-bottom: 20px;*/
+}
+
+#header {
+  /*height: 10vh;*/
+  background-color: #a64f24;
+  width: 100%;
+  float: left;
+}
+
+#nav {
+  /*height: 6vh;*/
+  background-color: #7e5555;
+  width: 100%;
+  float: left;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+#nav ul li a:link {
+  color: purple;
+}
+
+#nav ul li a:visited {
+  color: red;
+}
+
+#nav ul li a:hover {
+  font-weight: bold;
+}
+
+#nav ul li a:active {
+  text-decoration: none;
+}
+
+
+#main {
+  background-color: #ac7c59;
+  width: 100%;
+  padding: 20px;
+  min-height: 75vh;
+  float: left;
+}
+
+table#drinks td {
+  text-align: left;
+  padding-left: 45px;
+}
+
+table#drinks caption {
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 45px;
+  color: #333;
+}
+
+
+#footer {
+  text-align: center;
+  background-color: #a64f24;
+  /*min-height: 9vh;*/
+  clear: both;
+  margin: 0;
+}
+
+.welcome {
+  width: 370px;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px auto 0 auto;
+}
+
+.footer {
+  text-align: center;
+}
