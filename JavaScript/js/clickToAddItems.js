@@ -25,7 +25,7 @@ function validateItems() {
     document.forms["numberFun"]["num1"].focus();
     return false;
   }
-  if(num2 == "" || isNaN(num1)) {
+  if(num2 == "" || isNaN(num2)) {
     alert("Num1 must be filled in with a number.");
     document.forms["numberFun"]["num2"].parentElement.className = "form-group has-error";
     document.forms["numberFun"]["num2"].focus();
